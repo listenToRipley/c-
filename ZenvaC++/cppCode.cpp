@@ -1,0 +1,6 @@
+// entry point
+
+int main() {
+  
+}
+
