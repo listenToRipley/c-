@@ -10,10 +10,16 @@
 
 `<<` provide output text inside quotations marks after that.
 
-`>>` provides the input inside of a variable type that must be defined before being called. See [types](## Types) of how to do so.
+`>>` provides the input inside of a variable type that must be defined before being called. See [types](./Notes.md/#variable-types) of how to do so.
 
 Statements must end with `;`
 
-## Types
+## Variable Types
 
-* string - holds text date. 
+1. Integers 
+
+2. Doubles 
+
+3. Booleans
+
+4. Strings
