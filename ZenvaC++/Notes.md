@@ -10,8 +10,10 @@
 
 `<<` provide output text inside quotations marks after that.
 
-`>>` provides the input inside of a variable type that must be defined before being called.
+`>>` provides the input inside of a variable type that must be defined before being called. See [types](## Types) of how to do so.
 
 Statements must end with `;`
 
 ## Types
+
+* string - holds text date. 

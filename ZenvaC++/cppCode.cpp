@@ -7,4 +7,3 @@ int main() {
   std::cin >> s;
   std::cout << s;
 };
-

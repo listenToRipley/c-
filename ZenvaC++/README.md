@@ -24,6 +24,10 @@ Under "compiler path" choose `usr/bin/clang++`
 
  - [Notes](./Notes.md)
 
+## Run the Code
+
+`cd "absolute/path/to/file/learnC/ZenvaC++/" && g++ cppCode.cpp -o cppCode && "/absolute/path/to/file/learnC/ZenvaC++/"cppCode`
+
 ## Trouble Shooting 
 
 If any of your changes on your file are not appearing, verify the changes have been saved before you run the code.
