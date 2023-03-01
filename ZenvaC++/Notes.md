@@ -22,12 +22,34 @@ Variables are a named instance of a [type](./Notes.md/#types) the holds data.
 
 Variables must be started before referenced, but the can change throughout their life, but not change the [type](./Notes.md/#types) of state they are. This is what makes C++ a statically typed language.
 
+You do not need to assign a value when you provide the variable, but you do have to specify the type.
+
 ### Types
 
-1. Integers - full number values
+This is a list of the types, the bullets points under each will show how you need to reference it within the code to start using it.
 
-2. Doubles - numbers with decimal values
+1. Integers - whole number values
 
-3. Booleans - true or false
+- `int`
 
-4. Strings - text related
+2. Doubles - numbers with decimal values. Doubles can also use for whole numbers.
+
+- `double`
+
+*There is also floats, but not covered in this tutorial.*
+
+3. Booleans - true or false. The truthy and falsy will be lower case for this language.
+
+- `bool`
+
+4. Strings - text related, can be any value as long as it is contained inside double quotation marks.
+
+- `std::string`
+
+Providing the `std::` will allow the "" string to appear.
+
+*There are also char type which is not covered in this tutorial*
+
+### String Build in functions
+
+If you provide the string variable name and add a `.` after, you can see some of the additional methods available on those strings.
