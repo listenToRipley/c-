@@ -1,5 +1,7 @@
 # C++
 
+A statically types language.
+
 ## General
 
 - `//` comments
@@ -10,16 +12,22 @@
 
 `<<` provide output text inside quotations marks after that.
 
-`>>` provides the input inside of a variable type that must be defined before being called. See [types](./Notes.md/#variable-types) of how to do so.
+`>>` provides the input inside of a variable type that must be defined before being called. See [types](./Notes.md/#types) of how to do so.
 
 Statements must end with `;`
 
-## Variable Types
+## Variable
 
-1. Integers 
+Variables are a named instance of a [type](./Notes.md/#types) the holds data.
 
-2. Doubles 
+Variables must be started before referenced, but the can change throughout their life, but not change the [type](./Notes.md/#types) of state they are. This is what makes C++ a statically typed language.
 
-3. Booleans
+### Types
 
-4. Strings
+1. Integers - full number values
+
+2. Doubles - numbers with decimal values
+
+3. Booleans - true or false
+
+4. Strings - text related
