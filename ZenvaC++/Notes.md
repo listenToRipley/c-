@@ -53,3 +53,29 @@ Providing the `std::` will allow the "" string to appear.
 ### String Build in functions
 
 If you provide the string variable name and add a `.` after, you can see some of the additional methods available on those strings.
+
+### Operators
+
+The most basic of operators is the assignment `=` allows a value to be assigned.
+
+#### Arithmetic
+
+- `+`  add
+- `-`  subtract
+- `*`  multiply
+- `/`  divide
+-`%`   modulo
+
+#### Comparison
+
+- `==` is equal to
+- `!=` is not equal to
+- `>=` greater than or equal to
+- `>`  greater than
+- `<=` less than or equal to 
+- `<`  greater than or equal to
+
+#### Logical
+
+- `&&` and
+- `||` or
