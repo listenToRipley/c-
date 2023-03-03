@@ -26,6 +26,8 @@ You do not need to assign a value when you provide the variable, but you do have
 
 ### Types
 
+[Type Examples](./types.cpp)
+
 This is a list of the types, the bullets points under each will show how you need to reference it within the code to start using it.
 
 1. Integers - whole number values
@@ -57,6 +59,8 @@ If you provide the string variable name and add a `.` after, you can see some of
 ### Operators
 
 The most basic of operators is the assignment `=` allows a value to be assigned.
+
+[Examples](./operators.cpp)
 
 #### Arithmetic
 
