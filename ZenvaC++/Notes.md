@@ -66,7 +66,11 @@ The most basic of operators is the assignment `=` allows a value to be assigned.
 - `/`  divide
 -`%`   modulo
 
+You can also provide the short hand when reassign a value by using the arithmetic operation followed by the assignment operation, eg: `-=`.
+
 #### Comparison
+
+Comparison should only be used on the same value type.
 
 - `==` is equal to
 - `!=` is not equal to
