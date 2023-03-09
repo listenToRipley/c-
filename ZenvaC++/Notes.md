@@ -48,7 +48,7 @@ This is a list of the types, the bullets points under each will show how you nee
 
 Providing the `std::` will allow the "" string to appear.
 
-*There are also char type which is not covered in this tutorial*
+*There are also characters type which is not covered in this tutorial*
 
 ### String Build in functions
 
