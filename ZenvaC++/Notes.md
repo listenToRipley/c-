@@ -105,3 +105,8 @@ Comparison should only be used on the same value type.
 
 - `&&` and
 - `||` or
+
+
+## Arrays
+
+
