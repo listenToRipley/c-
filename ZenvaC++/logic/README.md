@@ -16,8 +16,12 @@ Loops are a way the run over and over again.
 
 ### while
 
-[While](./while.cpp) will keep running the code while the case it true. 
+[While loops](./while.cpp) will keep running the code while the case it true. 
 
 We must be careful when using so we don't end up in an infinite loop.
 
 There should always be an end.
+
+### for
+
+[For loops](./for.cpp) will run for a set number of times.
