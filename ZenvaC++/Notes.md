@@ -18,121 +18,13 @@ Statements must end with `;`
 
 ## Variable
 
-Variables are a named instance of a [type](./Notes.md/#types) the holds data.
+Variables are a named instance of a [type](./types/README.md) the holds data.
 
-Variables must be started before referenced, but the can change throughout their life, but not change the [type](./Notes.md/#types) of state they are. This is what makes C++ a statically typed language.
+Variables must be started before referenced, but the can change throughout their life, but not change the [type](./types/README.md) of state they are. This is what makes C++ a statically typed language.
 
 You do not need to assign a value when you provide the variable, but you do have to specify the type.
 
-### Types
-
-[Type Examples](./types.cpp)
-
-This is a list of the types, the bullets points under each will show how you need to reference it within the code to start using it.
-
-1. Integers - whole number values
-
-- `int`
-
-2. Doubles - numbers with decimal values. Doubles can also use for whole numbers.
-
-- `double`
-
-*There is also floats, but not covered in this tutorial.*
-
-3. Booleans - true or false. The truthy and falsy will be lower case for this language.
-
-- `bool`
-
-4. Strings - text related, can be any value as long as it is contained inside double quotation marks.
-
-- `std::string`
-
-Providing the `std::` will allow the "" string to appear.
-
-*There are also characters type which is not covered in this tutorial*
-
-5. [Pointers](./pointers.cpp), a reference to where a variable is stored in memory.
-
-These are numeric values and can be pulled out a specific variable by using `int * namePtr = &variable`;
-
-The naming convention for pointers in the provide the name of the variable you will be referencing to followed by `Ptr`.
-
-The `*` should not be confused with the multiply operand. This is the assignment reference.
-
-The `&` is the assignment that will provide the output of the address.
-
-To get the value of the assigned pointer, you will *"dereference"* the variable.
-
-You reuse the assignment variable with the original type to pull out the information. See line 10 of the [pointers](./pointers.cpp) doc to see this in action.
-
-This will provide the most up to date value of that variable.
-
-While the location will not change, the location to where the information is called my provide different output is the values change after the call.
-
-### String Build in functions
+## String Build in functions
 
 If you provide the string variable name and add a `.` after, you can see some of the additional methods available on those strings.
 
-### Operators
-
-The most basic of operators is the assignment `=` allows a value to be assigned.
-
-[Examples](./operators.cpp)
-
-#### Arithmetic
-
-- `+`  add
-- `-`  subtract
-- `*`  multiply
-- `/`  divide
--`%`   modulo
-
-You can also provide the short hand when reassign a value by using the arithmetic operation followed by the assignment operation, eg: `-=`.
-
-#### Comparison
-
-Comparison should only be used on the same value type.
-
-- `==` is equal to
-- `!=` is not equal to
-- `>=` greater than or equal to
-- `>`  greater than
-- `<=` less than or equal to 
-- `<`  greater than or equal to
-
-#### Logical
-
-- `&&` and
-- `||` or
-
-
-## Arrays
-
-[Arrays](./arrays.cpp) are lists of values of a single type. 
-
-They are immutable, you cannot change the array as a whole. Elements can't removed or add new elements to an array. 
-
-Arrays are established as specific type, with a variable name and then include a `[]` set after the variable name to show it is an array. 
-
-The contents of an array will be included inside of `{}`, separated by a comma.  
-
-Each individual item in an array is an "element". To access an element, you can use the index of the item. Arrays in C++ start a 0.
-
-You will place the index next to the variable name with a [] and the index element.
-
-While as a whole arrays are immutable, you can update an existing index.
-
-An alternative syntax to create basically a placeholder array. You do have to know how many elements their will be since you have to have established indexes to be able to update to. Provide the number between the []
-
-## Vectors
-
-[Vectors](./vectors.cpp) are very similar to arrays, but are mutable. 
-
-There are a number of built in functions that will allow use to change them. 
-
-These do come from a library, so much be imported.
-
-The set up will be `std::vector<type> variableName`. You will establish the variable then access it. 
-
-The functionality now will be very similar to arrays in other languages.
