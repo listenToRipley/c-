@@ -14,6 +14,6 @@ int main() {
 
     std::cout << age << "\n";
     std::cout << ageReference << "\n";
-    std::count << agePtr << "\n";
+    std::cout << agePtr << "\n";
 
 };

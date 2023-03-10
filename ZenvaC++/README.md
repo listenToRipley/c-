@@ -22,7 +22,11 @@ Under "compiler path" choose `usr/bin/clang++`
 
 ## Tables of Contents
 
- - [Notes](./Notes.md)
+ - [General Notes](./Notes.md)
+ - [Types](./types/README.md)
+ - [Operators](./operators/README.md)
+ - [Lists (Arrays and Vectors)](./lists/README.md)
+ - [Logic](./logic/README.md)
 
 ## Run the Code
 
