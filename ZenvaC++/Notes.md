@@ -124,3 +124,15 @@ You will place the index next to the variable name with a [] and the index eleme
 While as a whole arrays are immutable, you can update an existing index.
 
 An alternative syntax to create basically a placeholder array. You do have to know how many elements their will be since you have to have established indexes to be able to update to. Provide the number between the []
+
+## Vectors
+
+[Vectors](./vectors.cpp) are very similar to arrays, but are mutable. 
+
+There are a number of built in functions that will allow use to change them. 
+
+These do come from a library, so much be imported.
+
+The set up will be `std::vector<type> variableName`. You will establish the variable then access it. 
+
+The functionality now will be very similar to arrays in other languages.
