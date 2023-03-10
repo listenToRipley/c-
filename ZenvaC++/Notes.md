@@ -109,4 +109,18 @@ Comparison should only be used on the same value type.
 
 ## Arrays
 
+[Arrays](./arrays.cpp) are lists of values of a single type. 
 
+They are immutable, you cannot change the array as a whole. Elements can't removed or add new elements to an array. 
+
+Arrays are established as specific type, with a variable name and then include a `[]` set after the variable name to show it is an array. 
+
+The contents of an array will be included inside of `{}`, separated by a comma.  
+
+Each individual item in an array is an "element". To access an element, you can use the index of the item. Arrays in C++ start a 0.
+
+You will place the index next to the variable name with a [] and the index element.
+
+While as a whole arrays are immutable, you can update an existing index.
+
+An alternative syntax to create basically a placeholder array. You do have to know how many elements their will be since you have to have established indexes to be able to update to. Provide the number between the []
