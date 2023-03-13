@@ -27,6 +27,7 @@ Under "compiler path" choose `usr/bin/clang++`
  - [Operators](./operators/README.md)
  - [Lists (Arrays and Vectors)](./lists/README.md)
  - [Logic](./logic/README.md)
+ - [Structures](./structures/README.md)
 
 ## Run the Code
 
