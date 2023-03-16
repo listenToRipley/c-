@@ -21,3 +21,10 @@ You add `const` before the variable type.
 [Vectors](./vectors.cpp) are dynamic option for an array. Unlike arrays, you to not have to specify the size.
 
 There is more built in functionality as well.
+
+
+## Input
+
+Using `std::cin >>` with an associated variable.
+
+If you hit CTRL C this will exit the code without executing the code.
