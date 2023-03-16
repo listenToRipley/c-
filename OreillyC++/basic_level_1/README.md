@@ -12,6 +12,10 @@ There values that will should not change ever, these are considered constance. Y
 
 You add `const` before the variable type.
 
-## Array 
+## Array
 
 [Arrays](./arrays.cpp) must all contain the same type.
+
+## Vectors
+
+[Vectors](./vectors.cpp) are dynamic option for an array. Unlike arrays, you to not have to specify the size.
