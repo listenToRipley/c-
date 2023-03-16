@@ -4,8 +4,8 @@ This repository is a space for notes and details on learning C++ language.
 
 ## Table of Contents
 
-- [Zenva](./ZenvaC%2B%2B/README.md)
-- [O'Reilly](./OreillyC%2B%2B/README.md)
+1. [Zenva](./ZenvaC%2B%2B/README.md)
+2. [O'Reilly](./OreillyC%2B%2B/README.md)
 
 ### Notes
 
