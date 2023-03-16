@@ -19,3 +19,5 @@ You add `const` before the variable type.
 ## Vectors
 
 [Vectors](./vectors.cpp) are dynamic option for an array. Unlike arrays, you to not have to specify the size.
+
+There is more built in functionality as well.
