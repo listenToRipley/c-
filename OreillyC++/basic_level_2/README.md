@@ -15,3 +15,9 @@ Always consider the scope of your variables that are being used.
 ## Namespaces
 
 They are keywords that link a specific library together. This also helps naming collisions.
+
+You can create your own namespace with built in functionality.
+
+If you add `using namespace theCurrentNamespace`, then you will not need to provide the "namespace::" to access the associated namespace.
+
+Best practice is to only use the `using namespace` on common libraries, but personal built one. Again, this is to prevent naming collisions.

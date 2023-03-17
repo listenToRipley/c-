@@ -1,10 +1,23 @@
 #include <iostream>
 
+namespace abc {
+    int four_fold(int number) {
+        return number * 4; 
+    };
+
+    void cout() {
+
+    };
+};
+
+using namespace std;
+// using namespace abc;
+
 int c; //global scope
 
-void say_hello(std::string username, int user_age) {
+void say_hello(string username, int user_age) {
     c = 12;
-    std::cout << "Hello " << username << ", you are " << user_age << " years old" << std::endl;
+    cout << "Hello " << username << ", you are " << user_age << " years old" << endl;
 }
 
 int triple_num(int num){
@@ -14,7 +27,7 @@ int triple_num(int num){
 int print_triple_num(int number){
     int a;
     c = 21;
-    std::cout << triple_num(number) << std::endl;
+    cout << triple_num(number) << endl;
 }
 
 int main(){
@@ -33,5 +46,8 @@ int main(){
 
     {
         b=5; //since this block lives inside of main, we can use b.
-    }
+    };
+
+    abc::four_fold(6);
+    abc::cout();
 };
