@@ -24,7 +24,7 @@ double celsius_to_fahrenheit(double temp) {
 int main() {
     string user;
     int age;
-    int celsius;
+    double celsius;
     
     int a;
     int b;
