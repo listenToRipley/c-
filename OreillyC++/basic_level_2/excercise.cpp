@@ -16,7 +16,7 @@ int average(vector<double> list) {
     return accumulate(list.begin(), list.end(), 0.0) / list.size();
 }
 
-double temp_conversion(double temp) {
+double celsius_to_fahrenheit(double temp) {
     return (temp * 1.8) + 32;
 }
 
@@ -53,7 +53,7 @@ int main() {
     cout << "\n What is the current temperature in celsius? ";
     cin >> celsius;
 
-    double fahrenheit = temp_conversion(celsius);
+    double fahrenheit = celsius_to_fahrenheit(celsius);
 
     cout << "The temperature in fahrenheit is " << fahrenheit << endl;
 }
