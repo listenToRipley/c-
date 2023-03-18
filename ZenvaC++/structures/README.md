@@ -4,7 +4,7 @@ This section reviews the variable structures we can use within C++ to organize a
 
 ## functions
 
-Repeatable actions that be called more than once.
+[Functions](./functions.cpp) repeatable actions that be called more than once.
 
 The type of output from a function should be how the variable name of the function is initiated.
 
@@ -15,4 +15,8 @@ The values being passed to not have to be per established if different variables
 ### void 
 
 When you are not outputting any values.
+
+## Classes
+
+## Objects
 
