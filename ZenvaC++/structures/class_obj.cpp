@@ -3,10 +3,10 @@
 class User {
     public:
     std::string name;
-    int age: 
+    int age; 
     bool isLoggedIn;
 
-    User(std::sting n, int a) {
+    User(std::string n, int a) {
         //this is your constructor. It has the same name as the class. Think of this as a way to initialize your class.
         name = n;
         age = a;
