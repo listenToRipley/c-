@@ -6,7 +6,7 @@ This is a class through [O'Reilly's Learning Library](https://learning.oreilly.c
 
 1. [Level 1](./basic_level_1/README.md)
 2. [Level 2](./basic_level_2/README.md)
-3.
+3. [Level 3](./basic_level_3/README.md)
 4.
 
 ## Recommended Setup
