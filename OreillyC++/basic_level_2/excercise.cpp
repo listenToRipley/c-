@@ -5,7 +5,7 @@
 using namespace std;
 
 void user_info(string username, int age) {
-    cout << "Hello " << username << "\n" << ", you are " << age << "years old." << endl;
+    cout << "Hello " << username << ", you are " << age << " years old." << endl;
 }
 
 void greetUser() {
@@ -48,7 +48,7 @@ void averageResult(){
     
     int avg_list = average(temp_list);
 
-    cout << avg_list << endl;
+    cout << "The average is " << avg_list << endl;
 }
 
 double celsius_to_fahrenheit(double temp) {
