@@ -4,8 +4,8 @@ This is a class through [O'Reilly's Learning Library](https://learning.oreilly.c
 
 ## Tables of Contents
 
-1. [Basic](./basic_level_1/)
-2.
+1. [Level 1](./basic_level_1/README.md)
+2. [Level 2](./basic_level_2/README.md)
 3.
 4.
 
@@ -17,7 +17,7 @@ You need to download a [compiler](https://code.visualstudio.com/docs/languages/c
 
 ### Windows
 
-Once in the [compiler](https://code.visualstudio.com/docs/languages/cpp) search for MinGW-x64 and followin the installation instructions.
+Once in the [compiler](https://code.visualstudio.com/docs/languages/cpp) search for MinGW-x64 and following the installation instructions.
 
 Make sure you note where the file is being installed.
 
